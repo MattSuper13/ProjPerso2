@@ -5,8 +5,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Contact info</h1>
-<p>Mail: matt.super13@gmail.com</p>
-<a href="index.php">Back</a>
+
+    <h1> Contact info </h1>
+
+        <p> <a href="mailto:matt.super13@gmail.com"> <img id="mail" src="public/images/mail_logo.png" alt="logo Mail"> </a> Mail : matt.super13@gmail.com
+
+            <img id="discord" src="public/images/discord_logo.png" alt="logo Discord"> <br/> Discord : mattsuper13
+
+        </p>
+
+    <a href="index.php">Back</a>
+
 </body>
 </html>

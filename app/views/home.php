@@ -6,24 +6,28 @@
 </head>
 <body>
 
+<img src="public/images/logo_big.png" alt="Logo">
+
 <h1>Welcome to MotoStats</h1>
+
+<p> Every statistic about the Moto World Championship since its inception in 1949. </p>
 
 <form method="GET" action="index.php">
     <input type="hidden" name="page" value="search">
 
-    <label>Rider:</label>
+    <label>Name :</label>
     <input type="text" name="rider">
 
-    <label>Nationality:</label>
+    <label>Nationality :</label>
     <input type="text" name="nationality">
 
-    <label>Birth year:</label>
+    <label>Birth year :</label>
     <input type="text" name="birthyear">
 
-    <label>Class:</label>
+    <label>Class :</label>
     <input type="text" name="class">
 
-    <label>Races:</label>
+    <label>Races entered :</label>
     <input type="text" name="races">
 
     <button type="submit">Search</button>
