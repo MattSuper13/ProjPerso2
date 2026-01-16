@@ -17,3 +17,31 @@ switch ($route) {
         (new HomeController())->index();
         break;
 }
+
+require_once 'config/database.php';
+
+$page = $_GET['page'] ?? 'home';
+
+if ($page === 'home') {
+    require 'home.php';
+    exit;
+}
+
+if ($page === 'results') {
+
+    // Récupération des critères
+    $rider = $_GET['rider'] ?? '';
+    $nationality = $_GET['nationality'] ?? '';
+    $birthyear = $_GET['birthyear'] ?? '';
+    $rider_class = $_GET['rider_class'] ?? '';
+    $races = $_GET['races'] ?? '';
+
+    // Requête SQL dynamique
+    $sql = "SELECT * FROM riders WHERE 1=1";
+    $params = [];
+
+    if ($rider !== '') {
+        $sql .= " AND rider LIKE :rider";
+        $params['rider'] = "%$rider%";
+    }
+}

@@ -1,3 +1,7 @@
+<?php
+require_once 'config/database.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +29,7 @@
     <input type="text" name="birthyear">
 
     <label>Class :</label>
-    <input type="text" name="class">
+    <input type="text" name="rider_class">
 
     <label>Races entered :</label>
     <input type="text" name="races">
