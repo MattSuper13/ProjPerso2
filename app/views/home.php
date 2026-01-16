@@ -16,19 +16,19 @@
     <input type="hidden" name="page" value="search">
 
     <label>Name :</label>
-    <input type="text" name="rider">
+    <input type="text" name="RIDER">
 
     <label>Nationality :</label>
-    <input type="text" name="nationality">
+    <input type="text" name="NATIONALITY">
 
     <label>Birth year :</label>
-    <input type="text" name="birthyear">
+    <input type="text" name="BIRTHYEAR">
 
     <label>Class :</label>
-    <input type="text" name="rider_class">
+    <input type="text" name="CLASS">
 
     <label>Races entered :</label>
-    <input type="text" name="races">
+    <input type="text" name="RACES">
 
     <button type="submit">Search</button>
 </form>

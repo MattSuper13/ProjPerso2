@@ -15,11 +15,11 @@
     <ul>
         <?php foreach ($results as $rider): ?>
             <li>
-                <strong><?= htmlspecialchars($rider['rider']) ?></strong>
-                (<?= htmlspecialchars($rider['nationality']) ?>,
-                <?= htmlspecialchars($rider['birthyear']) ?>) –
-                <?= htmlspecialchars($rider['rider_class']) ?> –
-                <?= htmlspecialchars($rider['races']) ?> races
+                <strong><?= htmlspecialchars($rider['RIDER']) ?></strong>
+                (<?= htmlspecialchars($rider['NATIONALITY']) ?>,
+                <?= htmlspecialchars($rider['BIRTHYEAR']) ?>) –
+                <?= htmlspecialchars($rider['CLASS']) ?> –
+                <?= htmlspecialchars($rider['RACES']) ?> RACES
             </li>
         <?php endforeach; ?>
     </ul>

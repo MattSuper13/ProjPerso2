@@ -28,18 +28,18 @@ if ($page === 'home') {
 if ($page === 'results') {
 
     // Récupération des critères
-    $rider = $_GET['rider'] ?? '';
-    $nationality = $_GET['nationality'] ?? '';
-    $birthyear = $_GET['birthyear'] ?? '';
-    $rider_class = $_GET['rider_class'] ?? '';
-    $races = $_GET['races'] ?? '';
+    $rider = $_GET['RIDER'] ?? '';
+    $nationality = $_GET['NATIONALITY'] ?? '';
+    $birthyear = $_GET['BIRTHYEAR'] ?? '';
+    $rider_class = $_GET['CLASS'] ?? '';
+    $races = $_GET['RACES'] ?? '';
 
     // Requête SQL dynamique
-    $sql = "SELECT * FROM riders WHERE 1=1";
+    $sql = "SELECT * FROM RIDERS WHERE 1=1";
     $params = [];
 
     if ($rider !== '') {
-        $sql .= " AND rider LIKE :rider";
-        $params['rider'] = "%$rider%";
+        $sql .= " AND RIDER LIKE :RIDER";
+        $params['RIDER'] = "%$rider%";
     }
 }
