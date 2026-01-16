@@ -18,8 +18,6 @@ switch ($route) {
         break;
 }
 
-require_once 'config/database.php';
-
 $page = $_GET['page'] ?? 'home';
 
 if ($page === 'home') {
