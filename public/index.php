@@ -21,7 +21,7 @@ switch ($route) {
 $page = $_GET['page'] ?? 'home';
 
 if ($page === 'home') {
-    require 'home.php';
+    require __DIR__ . '/../app/views/home.php';
     exit;
 }
 
