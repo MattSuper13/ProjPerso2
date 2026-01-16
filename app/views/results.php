@@ -8,7 +8,6 @@
 
 <h1>Search results</h1>
 
-<ul>
 <?php if (empty($results)): ?>
     <p>No results found.</p>
 <?php else: ?>
@@ -18,14 +17,12 @@
                 <strong><?= htmlspecialchars($rider['RIDER']) ?></strong>
                 (<?= htmlspecialchars($rider['NATIONALITY']) ?>,
                 <?= htmlspecialchars($rider['BIRTHYEAR']) ?>) –
-                <?= htmlspecialchars($rider['CLASS']) ?> –
+                <?= htmlspecialchars($rider['RIDER_CLASS']) ?> –
                 <?= htmlspecialchars($rider['RACES']) ?> RACES
             </li>
         <?php endforeach; ?>
     </ul>
 <?php endif; ?>
-
-</ul>
 
 <a href="index.php">Back</a>
 

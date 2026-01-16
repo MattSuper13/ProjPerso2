@@ -10,7 +10,7 @@
 
 <h1>Welcome to MotoStats</h1>
 
-<p> Every statistic about the Moto World Championship since its inception in 1949. </p>
+<p>Every statistic about the Moto World Championship since its inception in 1949.</p>
 
 <form method="GET" action="index.php">
     <input type="hidden" name="page" value="search">
@@ -25,7 +25,7 @@
     <input type="text" name="BIRTHYEAR">
 
     <label>Class :</label>
-    <input type="text" name="CLASS">
+    <input type="text" name="RIDER_CLASS">
 
     <label>Races entered :</label>
     <input type="text" name="RACES">
