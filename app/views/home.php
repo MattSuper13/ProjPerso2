@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<img src="public/images/logo_big.png" alt="Logo">
+<img src="/../../public/images/logo_big.png" alt="Logo">
 
 <h1>Welcome to MotoStats</h1>
 
