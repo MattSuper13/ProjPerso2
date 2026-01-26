@@ -3,6 +3,7 @@
 <head>
     <title>Search results</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="/../../images/logo_favicon.png"> <!-- Favicon -->
 </head>
 <body>
 
