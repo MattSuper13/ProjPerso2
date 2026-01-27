@@ -19,7 +19,7 @@
                 (<?= htmlspecialchars($rider['NATIONALITY']) ?>,
                 <?= htmlspecialchars($rider['BIRTHYEAR']) ?>) –
                 <?= htmlspecialchars($rider['RIDER_CLASS']) ?> –
-                <?= htmlspecialchars($rider['RACES']) ?> RACES
+                <?= htmlspecialchars($rider['RACES']) ?> Races
             </li>
         <?php endforeach; ?>
     </ul>
