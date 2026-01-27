@@ -35,7 +35,7 @@
 </form>
 
 <br>
-<a href="index.php?page=contact">Contact</a>
+<a id="nav_button" href="index.php?page=contact">Contact</a>
 
 </body>
 </html>

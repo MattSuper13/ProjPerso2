@@ -3,6 +3,12 @@ body {
     text-align: center;
 }
 
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
 #mail {
     width: 5%;
     height: auto;
@@ -11,4 +17,10 @@ body {
 #discord {
     width: 5%;
     height: auto;
+}
+
+#nav_button {
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 25px;
 }

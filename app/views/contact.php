@@ -15,7 +15,7 @@
 
         </p>
 
-    <a href="index.php">Back</a>
+    <a id="nav_button" href="index.php">Back</a>
 
 </body>
 </html>
